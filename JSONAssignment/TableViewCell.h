@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewCell.h
 //  JSONAssignment
 //
 //  Created by SIVASANKAR DEVABATHINI on 11/3/15.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TableViewCell : UITableViewCell
 
-
+- (void)setUpCell:(NSString*)string;
 @end
-

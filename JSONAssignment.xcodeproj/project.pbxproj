@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		EF7E882F1BE9901700EA59BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7E882E1BE9901700EA59BD /* main.m */; };
 		EF7E88321BE9901700EA59BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7E88311BE9901700EA59BD /* AppDelegate.m */; };
-		EF7E88351BE9901700EA59BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7E88341BE9901700EA59BD /* ViewController.m */; };
 		EF7E88381BE9901700EA59BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7E88361BE9901700EA59BD /* Main.storyboard */; };
 		EF7E883A1BE9901700EA59BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7E88391BE9901700EA59BD /* Images.xcassets */; };
 		EF7E883D1BE9901700EA59BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7E883B1BE9901700EA59BD /* LaunchScreen.xib */; };
 		EF7E88491BE9901700EA59BD /* JSONAssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7E88481BE9901700EA59BD /* JSONAssignmentTests.m */; };
+		EF7E88541BE9906800EA59BD /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7E88531BE9906800EA59BD /* TableViewController.m */; };
+		EF7E88571BE9921700EA59BD /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7E88561BE9921700EA59BD /* TableViewCell.m */; };
+		EF7E885E1BE99D2E00EA59BD /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7E885D1BE99D2E00EA59BD /* DataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		EF7E882E1BE9901700EA59BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF7E88301BE9901700EA59BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF7E88311BE9901700EA59BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EF7E88331BE9901700EA59BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EF7E88341BE9901700EA59BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EF7E88371BE9901700EA59BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF7E88391BE9901700EA59BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EF7E883C1BE9901700EA59BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EF7E88421BE9901700EA59BD /* JSONAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7E88471BE9901700EA59BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF7E88481BE9901700EA59BD /* JSONAssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONAssignmentTests.m; sourceTree = "<group>"; };
+		EF7E88521BE9906800EA59BD /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		EF7E88531BE9906800EA59BD /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		EF7E88551BE9921700EA59BD /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		EF7E88561BE9921700EA59BD /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		EF7E885C1BE99D2E00EA59BD /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		EF7E885D1BE99D2E00EA59BD /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +89,13 @@
 			children = (
 				EF7E88301BE9901700EA59BD /* AppDelegate.h */,
 				EF7E88311BE9901700EA59BD /* AppDelegate.m */,
-				EF7E88331BE9901700EA59BD /* ViewController.h */,
-				EF7E88341BE9901700EA59BD /* ViewController.m */,
 				EF7E88361BE9901700EA59BD /* Main.storyboard */,
+				EF7E88551BE9921700EA59BD /* TableViewCell.h */,
+				EF7E88561BE9921700EA59BD /* TableViewCell.m */,
+				EF7E88521BE9906800EA59BD /* TableViewController.h */,
+				EF7E88531BE9906800EA59BD /* TableViewController.m */,
+				EF7E885C1BE99D2E00EA59BD /* DataManager.h */,
+				EF7E885D1BE99D2E00EA59BD /* DataManager.m */,
 				EF7E88391BE9901700EA59BD /* Images.xcassets */,
 				EF7E883B1BE9901700EA59BD /* LaunchScreen.xib */,
 				EF7E882C1BE9901700EA59BD /* Supporting Files */,
@@ -219,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF7E88351BE9901700EA59BD /* ViewController.m in Sources */,
 				EF7E88321BE9901700EA59BD /* AppDelegate.m in Sources */,
+				EF7E885E1BE99D2E00EA59BD /* DataManager.m in Sources */,
+				EF7E88571BE9921700EA59BD /* TableViewCell.m in Sources */,
+				EF7E88541BE9906800EA59BD /* TableViewController.m in Sources */,
 				EF7E882F1BE9901700EA59BD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
